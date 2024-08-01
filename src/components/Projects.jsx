@@ -64,7 +64,7 @@ const Projects = () => {
     const secondRowProjects = project.slice(2);
     return (
         <div className="bg-white">
-            <div className="flex flex-wrap gap-7 justify-center items-center m-12 p-12 mt-20 pt-20 ">
+            <div className="flex flex-wrap gap-7 justify-center items-center sm:m-12 sm:p-12 mb-6 " style={{marginTop:'5rem',paddingTop:'5rem'}}>
                 {firstRowProjects.map((item, index) => (
                     <ProjectCard
                         key={index}
@@ -78,7 +78,7 @@ const Projects = () => {
                 ))}
             </div>
 
-            <div className="flex flex-wrap gap-7 justify-center items-center m-12 p-12 mt-0 pt-0">
+            <div className="flex flex-wrap gap-7 justify-center items-center  sm:m-12 sm:p-12 mb-6 mt-0 pt-0" style={{marginBottom:'5rem',paddingBottom:'5rem'}}>
                 {secondRowProjects.map((item, index) => (
                     <ProjectCard
                         key={index}
