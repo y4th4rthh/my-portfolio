@@ -76,7 +76,7 @@ const Contact = () => {
 
 	return (
 		<div className='relative z-0 bg-white mt-12'>   
-			<div className='text-black contact overflow-x-hidden pt-12 mt-8 py-7' id='contact'>
+			<div className='text-black contact overflow-x-hidden pt-14 mt-8 py-7' id='contact'>
 				<div className='z-10 w-full sm:w-[650px] m-auto p-8 rounded-2xl'>
 					<p className='font-light'>REACH OUT TO ME</p>
 					<h2 className='text-5xl font-extrabold mt-2 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 via-blue-500 to-blue-600'>Contact.</h2>
