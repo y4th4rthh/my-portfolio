@@ -1,7 +1,6 @@
 import React from 'react';
 import '../App.css';
 import { services } from '../constants';
-import ButtonLink from './ButtonLink';
 import Footer from './Footer';
 
 const ServiceCard = ({ service }) => (
@@ -38,7 +37,7 @@ const About = () => {
               On a different note, I'm also into photography📸. It's not just a hobby; I see it as a way to capture moments🌟📷, tell stories.</p>
 
 
-            <a href='https://drive.google.com/file/d/19Vh0nx5JF9G_sgawb_dUIFlGSHtjp_dw/view?usp=drive_link' target='_blank' rel='noopener noreferrer'>
+            <a href='https://drive.google.com/file/d/1QZZ7lIp4r1uA8okn4rMESczBCrF2t110/view?usp=drive_link' target='_blank' rel='noopener noreferrer'>
               <button className='bg-blue-500 text-white p-3 rounded-md hover:bg-blue-300'>
                 View Resume →
               </button>
