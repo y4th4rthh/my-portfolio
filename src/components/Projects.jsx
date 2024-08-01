@@ -101,28 +101,28 @@ export const project = [
         title: 'Time Guardian',
         description: '•		Time Guardian is a comprehensive employee management system designed to streamline administrative tasks and enhance workplace efficiency using modern technologies. It offers secure work hour monitoring and fostering transparent communication between managers and employees.',
         image: { timeguardian },
-        git: 'https://github.com/nithingooud/CoPeople',
+        git: 'https://github.com/y4th4rthh/time-guardian',
         technologies: ['MongoDb', 'React.js', 'Node.js']
     },
     {
         title: 'Gujarat Entrance Exam',
         description: '•	Gujarat Entrance Exam is an exam portal that I designed using Vite.js and Java Sprint Boot along with Tailwind CSS. It employs modern technologies to provide a user-friendly experience, automating the allocation of exam seats and issuance of hall tickets post-registration.',
         image: { gee },
-        git: "https://github.com/nithingooud/vpn_studios",
+        git: "https://github.com/y4th4rthh/seat-allocation-system",
         technologies: ['Vite.js', 'JavaSprintBoot']
     },
     {
         title: 'Quick Resume',
         description: '•	ResumeGenR is a web-based application designed to automate the creation of resumes using Vite.js and Node.js technologies. It leverages modern technologies to provide users with a streamlined experience for generating professional resumes tailored to their specific needs.',
         image: { resume },
-        git: "https://github.com/nithingooud/vpn_studios",
+        git: "https://github.com/y4th4rthh/quick-resume-generator",
         technologies: ['MongoDb', 'React.js', 'Node.js']
     },
     {
         title: 'Online Payment Hub',
         description: '• This Java-based project facilitates online transactions for booking train and movie tickets, paying electricity bills, and recharging mobiles. Itoffers secure seat reservations, efficient payment processing, intuitive interfaces, and a robust backend, ensuring a seamless user experience.',
         image: { resume },
-        git: "https://github.com/nithingooud/vpn_studios",
+        git: "https://github.com/y4th4rthh/online-payment-hub",
         technologies: ['MySQL', 'Java']
     },
 
