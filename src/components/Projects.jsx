@@ -3,6 +3,7 @@ import React from "react";
 import gee from '../assets/GEE.png'
 import resume from '../assets/Resume.png'
 import timeguardian from '../assets/TimeGuardian.png'
+import onlinepayment from '../assets/OnlinePayment.png'
 import Footer from './Footer'
 
 const ProjectCard = ({ image, title, description, git, technologies }) => {
@@ -25,7 +26,7 @@ const ProjectCard = ({ image, title, description, git, technologies }) => {
             )}
             {title === 'Online Payment Hub' && (
                 <a href="#">
-                    <img className="w-full rounded-t-lg h-auto object-cover" style={{borderBottom:'1px solid gray'}} src={resume} alt=""  />
+                    <img className="w-full rounded-t-lg h-auto object-cover" style={{borderBottom:'1px solid gray'}} src={onlinepayment} alt=""  />
                 </a>
             )}
             <div className="p-4 sm:p-6">
@@ -121,7 +122,7 @@ export const project = [
     {
         title: 'Online Payment Hub',
         description: '• This Java-based project facilitates online transactions for booking train and movie tickets, paying electricity bills, and recharging mobiles. Itoffers secure seat reservations, efficient payment processing, intuitive interfaces, and a robust backend, ensuring a seamless user experience.',
-        image: { resume },
+        image: { onlinepayment },
         git: "https://github.com/y4th4rthh/online-payment-hub",
         technologies: ['MySQL', 'Java']
     },
