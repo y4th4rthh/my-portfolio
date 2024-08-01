@@ -33,7 +33,7 @@ const About = () => {
             <h2 className='text-4xl sm:text-5xl font-extrabold mt-2'>Introduction</h2>
             <p className='mt-3 mb-6 text-[17px] max-w-3xl leading-[30px]'>👨‍💻 Hi, I'm Patel Yatharth, a 2025 graduate🎓 with a passion for crafting robust backend systems and captivating web applications.I specialize in both Frontend and MERN stacks🚀.
               <br />
-              ✍️ Beyond coding, I love sharing my insights and experiences through engaging blogs on <a className=' text-purple-300 hover:text-purple-400 duration-300' href="https://medium.com/@goudnithin77" target='_blank'>Medium</a>, where I delve into the intricacies of software development and technology trends.
+              ✍️ Beyond coding, I love sharing my insights and experiences through engaging blogs on <a className=' text-blue-600 hover:text-blue-700 duration-300' href="https://medium.com/@yatharthpatel014" target='_blank'>Medium</a>, where I delve into the intricacies of software development and technology trends.
               On a different note, I'm also into photography📸. It's not just a hobby; I see it as a way to capture moments🌟📷, tell stories.</p>
 
 
