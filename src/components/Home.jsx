@@ -18,7 +18,7 @@ const Home = () => {
     }, [text]);
 
     return (
-        <div className='area relative z-0 bg-white w-screen' style={{backgroundColor:'white'}}>
+        <div className='area relative z-0 bg-white w-screen h-screen' style={{backgroundColor:'white'}}>
             <ul className="circles my-auto" style={{ backgroundColor: '#ffffff' }}>
                 <li style={{ backgroundColor: '#dbeafe' }}></li>
                 <li style={{ backgroundColor: '#bfdbfe' }}></li>
