@@ -121,7 +121,7 @@ export const project = [
     },
     {
         title: 'Online Payment Hub',
-        description: '• This Java-based project facilitates online transactions for booking train and movie tickets, paying electricity bills, and recharging mobiles. Itoffers secure seat reservations, efficient payment processing, intuitive interfaces, and a robust backend, ensuring a seamless user experience.',
+        description: '• This Java-based cli project facilitates online transactions for booking train and movie tickets, paying electricity bills, and recharging mobiles. It offers secure seat reservations, payment processing, intuitive interfaces, and a robust backend, ensuring a seamless user experience.',
         image: { onlinepayment },
         git: "https://github.com/y4th4rthh/online-payment-hub",
         technologies: ['MySQL', 'Java']
