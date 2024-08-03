@@ -7,7 +7,7 @@ import Footer from './Footer';
 
 const Experience = () => {
   return (
-    <div className='experience bg-black w-screen text-white pt-4 pt-16 overflow-x-hidden' id='experience'>
+    <div className='experience bg-white w-screen text-black  pt-16 overflow-x-hidden' id='experience'>
       <div className='pt-12 sm:px-16'>
         <p className='font-light'>MY JOURNEY SO FAR.</p>
         <h2 className='text-4xl sm:text-5xl font-extrabold mt-2'>Work Experience.</h2>
@@ -16,8 +16,8 @@ const Experience = () => {
         {experiences.map((experience) => (
           <VerticalTimelineElement
             className="relative vertical-timeline-element--work"
-            contentStyle={{ background: "#1d1836", color: "#fff", }}
-            contentArrowStyle={{ borderRight: "7px solid  #232631" }}
+            contentStyle={{ background: "#3B82F6", color: "black", }}
+            contentArrowStyle={{ borderRight: "7px solid  #3B82F6" }}
             date={experience.duration}
             iconStyle={{ background: '#fff' }}
             icon={
@@ -53,6 +53,15 @@ const Experience = () => {
           </VerticalTimelineElement>
         ))}
       </VerticalTimeline>
+      <style jsx>{`
+        .vertical-timeline::before {
+          background: #e5e7eb; /* bg-gray-100 */
+        }
+        .dark .vertical-timeline::before {
+          background: #f3f4f6 ; /* black for dark mode */
+        }
+        `}
+      </style>
       <Footer/>
     </div>
   )
