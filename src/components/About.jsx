@@ -13,7 +13,7 @@ const ServiceCard = ({ service }) => (
         <img
           src={service.icon}
           alt='some_icon'
-          className='w-16 h-16 object-contain'
+          className='w-24 h-24 object-contain rotate-slow'
         />
         <h3 className='text-white text-[20px] font-bold text-center'>
           {service.title}
