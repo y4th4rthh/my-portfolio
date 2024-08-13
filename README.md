@@ -1,5 +1,9 @@
 # MyPortfolio
 
+## Can run the Project through the below link:
+
+### `https://main--yatharthpatel.netlify.app/`
+
 ## Cloning and Running the Vite Project Locally
 
 ### `git clone https://github.com/y4th4rthh/my-portfolio`
