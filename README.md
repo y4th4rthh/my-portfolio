@@ -1,8 +1,6 @@
 # MyPortfolio
 
-## Can run the Project through the below link:
-
-### `https://main--yatharthpatel.netlify.app/`
+Access the live project: [https://main--yatharthpatel.netlify.app/](https://main--quickresumee.netlify.app/)
 
 ## Cloning and Running the Vite Project Locally
 
