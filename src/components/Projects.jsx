@@ -120,10 +120,10 @@ export const project = [
         technologies: ['MongoDb', 'React.js', 'Node.js']
     },
     {
-        title: 'I Can Compile ahh Editor',
+        title: 'Online Code Editor',
         description: '• "I Can Compile ahh Editor" is an online text editor that supports Python, HTML, and CSS code compilation. It offers real-time preview, syntax highlighting, file management, and a responsive design. Users can securely write, compile, and share code, making it perfect for collaborative projects.',
         image: { icc },
-        git: "https://github.com/y4th4rthh/online-payment-hub",
+        git: "https://github.com/y4th4rthh/text-editor-app",
         technologies: ['Vite.js', 'Node.js', 'MongoDb']
     },
 
