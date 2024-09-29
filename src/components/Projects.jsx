@@ -24,7 +24,7 @@ const ProjectCard = ({ image, title, description, git, technologies }) => {
                     <img className="w-full rounded-t-lg h-auto object-cover" style={{borderBottom:'1px solid gray'}} src={resume} alt=""  />
                 </a>
             )}
-            {title === 'I Can Compile ahh Editor' && (
+            {title === 'Online Code Editor' && (
                 <a href="https://example.com">
                     <img className="w-full rounded-t-lg h-auto object-cover" style={{borderBottom:'1px solid gray'}} src={icc} alt=""  />
                 </a>
