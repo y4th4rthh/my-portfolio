@@ -10,22 +10,22 @@ const ProjectCard = ({ image, title, description, git, technologies }) => {
     return (
         <div className="max-w-sm sm:max-w-sm md:max-w-sm bg-white border border-gray-200 rounded-lg shadow-lg">
             {title === 'Gujarat Entrance Exam' && (
-                <a href="https://example.com">
+                <a href="https://github.com/y4th4rthh/seat-allocation-system">
                     <img className="w-full rounded-t-lg h-auto object-cover" style={{borderBottom:'1px solid gray'}} src={gee} alt=""  />
                 </a>
             )}
             {title === 'Time Guardian' && (
-                <a href="https://example.com">
+                <a href="https://github.com/y4th4rthh/time-guardian">
                     <img className="w-full rounded-t-lg h-auto object-cover" style={{borderBottom:'1px solid gray'}} src={timeguardian} alt=""  />
                 </a>
             )}
             {title === 'Quick Resume' && (
-                <a href="https://example.com">
+                <a href="https://github.com/y4th4rthh/quick-resume-generator">
                     <img className="w-full rounded-t-lg h-auto object-cover" style={{borderBottom:'1px solid gray'}} src={resume} alt=""  />
                 </a>
             )}
             {title === 'Online Code Editor' && (
-                <a href="https://example.com">
+                <a href="https://github.com/y4th4rthh/text-editor-app">
                     <img className="w-full rounded-t-lg h-auto object-cover" style={{borderBottom:'1px solid gray'}} src={icc} alt=""  />
                 </a>
             )}
