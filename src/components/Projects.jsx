@@ -3,7 +3,7 @@ import React from "react";
 import gee from '../assets/GEE.png'
 import resume from '../assets/Resume.png'
 import timeguardian from '../assets/TimeGuardian.png'
-import onlinepayment from '../assets/OnlinePayment.png'
+import icc from '../assets/ICC.png'
 import Footer from './Footer'
 
 const ProjectCard = ({ image, title, description, git, technologies }) => {
@@ -24,9 +24,9 @@ const ProjectCard = ({ image, title, description, git, technologies }) => {
                     <img className="w-full rounded-t-lg h-auto object-cover" style={{borderBottom:'1px solid gray'}} src={resume} alt=""  />
                 </a>
             )}
-            {title === 'Online Payment Hub' && (
+            {title === 'I Can Compile ahh Editor' && (
                 <a href="https://example.com">
-                    <img className="w-full rounded-t-lg h-auto object-cover" style={{borderBottom:'1px solid gray'}} src={onlinepayment} alt=""  />
+                    <img className="w-full rounded-t-lg h-auto object-cover" style={{borderBottom:'1px solid gray'}} src={icc} alt=""  />
                 </a>
             )}
             <div className="p-4 sm:p-6">
@@ -120,11 +120,11 @@ export const project = [
         technologies: ['MongoDb', 'React.js', 'Node.js']
     },
     {
-        title: 'Online Payment Hub',
-        description: '• This Java-based cli project facilitates online transactions for booking train and movie tickets, paying electricity bills, and recharging mobiles. It offers secure seat reservations, payment processing, intuitive interfaces, and a robust backend, ensuring a seamless user experience.',
-        image: { onlinepayment },
+        title: 'I Can Compile ahh Editor',
+        description: '• "I Can Compile ahh Editor" is an online text editor that supports Python, HTML, and CSS code compilation. It offers real-time preview, syntax highlighting, file management, and a responsive design. Users can securely write, compile, and share code, making it perfect for collaborative projects.',
+        image: { icc },
         git: "https://github.com/y4th4rthh/online-payment-hub",
-        technologies: ['MySQL', 'Java']
+        technologies: ['Vite.js', 'Node.js', 'MongoDb']
     },
 
    
