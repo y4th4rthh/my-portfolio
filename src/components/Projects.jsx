@@ -121,7 +121,7 @@ export const project = [
     },
     {
         title: 'Online Code Editor',
-        description: '• "I Can Compile ahh Editor" is an online text editor that supports Python, HTML, and CSS code compilation. It offers real-time preview, syntax highlighting, file management, and a responsive design. Users can securely write, compile, and share code, making it perfect for collaborative projects.',
+        description: '• Code Wizard is an innovative online platform offering comprehensive tutorials for HTML, CSS, Python, React, Node.js, and Tailwind CSS. It features a user-friendly built-in text editor, allowing users to write and test their code efficiently in one convenient space.',
         image: { icc },
         git: "https://github.com/y4th4rthh/text-editor-app",
         technologies: ['Vite.js', 'Node.js', 'MongoDb']
