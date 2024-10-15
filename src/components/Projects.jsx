@@ -24,7 +24,7 @@ const ProjectCard = ({ image, title, description, git, technologies }) => {
                     <img className="w-full rounded-t-lg h-auto object-cover" style={{borderBottom:'1px solid gray'}} src={resume} alt=""  />
                 </a>
             )}
-            {title === 'Online Code Editor' && (
+            {title === 'Code Wizard' && (
                 <a href="https://github.com/y4th4rthh/text-editor-app">
                     <img className="w-full rounded-t-lg h-auto object-cover" style={{borderBottom:'1px solid gray'}} src={icc} alt=""  />
                 </a>
@@ -120,7 +120,7 @@ export const project = [
         technologies: ['MongoDb', 'React.js', 'Node.js']
     },
     {
-        title: 'Online Code Editor',
+        title: 'Code Wizard',
         description: '• Code Wizard is an innovative online platform offering comprehensive tutorials for HTML, CSS, Python, React, Node.js, and Tailwind CSS. It features a user-friendly built-in text editor, allowing users to write and test their code efficiently in one convenient space.',
         image: { icc },
         git: "https://github.com/y4th4rthh/text-editor-app",
