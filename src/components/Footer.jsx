@@ -8,7 +8,7 @@ const Footer = () => {
 	const year = new Date().getFullYear();
 
 	return (
-		<div className='bg-blue-500 p-4' style={{ cursor: 'default' }}>
+		<div className='fixed bottom-0  w-screen bg-blue-500 p-4 z-10' style={{ cursor: 'default' }}>
 			<div className='flex justify-between flex-wrap gap-4'>
 				<p className='text-white text-center w-full sm:w-auto font-light'>© {year} Yatharth.   All rights reserved.</p>
 				<div className='text-white flex justify-around sm:w-[250px] w-full'>

@@ -84,10 +84,10 @@ const Home = () => {
     };
 
     return (
-        <div className='relative min-h-screen bg-gradient-to-b from-white to-blue-50 overflow-hidden'>
+        <div className='relative min-h-screen bg-gradient-to-b from-white to-blue-50 overflow-hidden z-0'>
             {/* Animated background circles - only shown after typing completes */}
             {typingComplete && (
-                <ul className="absolute inset-0 w-full h-full overflow-hidden z-0">
+                <ul className="absolute inset-0 w-full h-full overflow-hidden ">
                     {[...Array(10)].map((_, index) => {
                         // Generate a single size value for both width and height
                         const size = 50 + Math.random() * 100;
@@ -113,13 +113,13 @@ const Home = () => {
             
             {/* Main content */}
             <div className='relative z-10 flex flex-col justify-center items-center h-screen px-4'>
-                <div className='max-w-3xl w-full text-center'>
-                    <div className='rounded-3xl p-8 transform transition-all duration-500 hover:scale-105'>
-                        <h1 className='text-5xl sm:text-6xl md:text-7xl font-extrabold text-gray-800'>
+                <div className='max-w-4xl w-full text-center'>
+                    <div className='rounded-3xl md:p-8 p-4 transform transition-all duration-500 hover:scale-105'>
+                        <h1 className='text-4xl sm:text-6xl md:text-7xl font-extrabold text-gray-800'>
                             Hi, I'm&nbsp;
                             <span className='text-blue-600 font-extrabold'>
                                 {text}
-                                <span className={`inline-block w-0.5 h-12 bg-blue-600 ml-1 align-middle ${showCursor ? 'opacity-100' : 'opacity-0'}`}></span>
+                                <span className={`inline-block w-0.5 h-12 md:h-16 bg-blue-600 ml-1 align-middle ${showCursor ? 'opacity-100' : 'opacity-0'}`}></span>
                             </span>
                         </h1>
                         <p className='mt-6 text-xl sm:text-2xl text-gray-600 leading-relaxed'>

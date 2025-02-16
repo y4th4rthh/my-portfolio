@@ -8,7 +8,7 @@ const Experience = () => {
   return (
     <div className="overflow-hidden bg-gradient-to-b from-white to-blue-50">
       <div className='min-h-screen pt-16 pb-20 overflow-x-hidden' id='experience'>
-        <div className='px-6 pt-12 mx-auto max-w-7xl sm:px-16'>
+        <div className='px-6 py-12 mx-auto max-w-7xl sm:px-16'>
           <p className='text-blue-500 font-medium tracking-wider uppercase'>MY JOURNEY SO FAR</p>
           <h2 className='mt-2 text-4xl font-extrabold text-gray-800 sm:text-5xl'>Work Experience.</h2>
         </div>
@@ -74,13 +74,14 @@ const Experience = () => {
           .vertical-timeline-element-date {
             font-weight: 500;
             padding: 0.5rem 1rem !important;
-            background: rgba(255, 255, 255, 0.8);
+            background: transparent;
             border-radius: 8px;
           }
           
           @media (max-width: 1170px) {
             .vertical-timeline-element-date {
               margin-top: 1.5rem !important;
+               background: rgba(255, 255, 255, 0.8);
             }
           }
           

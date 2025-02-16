@@ -4,7 +4,7 @@ import { services } from '../constants';
 import Footer from './Footer';
 
 const ServiceCard = ({ service }) => (
-  <div className='sm:w-[250px] w-full'>
+  <div className=' w-full'>
     <div
       className='w-full green-pink-gradient p-[1px] rounded-[20px]'>
       <div
@@ -27,9 +27,9 @@ const About = () => {
   return (
     <div>
 
-      <div className='bg-white h-full w-full text-black sm:flex sm:justify-around about py-12 mt-8 overflow-x-hidden ' id='about'>
-        <div className='flex flex-col justify-around py-12'>
-          <div className='sm:px-16 px-2'>
+      <div className='bg-white h-full w-full text-black sm:flex sm:justify-around about py-12 my-8 overflow-x-hidden ' id='about'>
+        <div className='flex flex-col w-full max-w-5xl justify-around py-12'>
+          <div className=' px-2'>
             <h2 className='text-4xl sm:text-5xl font-extrabold mt-2'>Introduction</h2>
             <p className='mt-3 mb-6 text-[17px] max-w-3xl leading-[30px]'>👨‍💻 Hi, I'm Patel Yatharth, a 2025 graduate🎓 with a passion for crafting robust backend systems and captivating web applications.I specialize in both Frontend and MERN stacks🚀.
               <br />
@@ -44,7 +44,7 @@ const About = () => {
             </a>
 
           </div>
-          <div className='mt-20 flex  justify-center flex-wrap gap-7'>
+          <div className='mt-20 grid grid-cols-1  md:grid-cols-3 justify-center items-center max-w-5xl gap-7 px-2'>
             {services.map((service) => (
               <ServiceCard service={service}  />
             ))}
